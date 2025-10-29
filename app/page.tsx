@@ -5,13 +5,15 @@ import MusicCard from "./components/card";
 import ButtonColor from "./components/button";
 import PlaylistList from "./components/listPlaylists";
 import BottomMenu from "./components/bottonMenu";
+import Aurora from "./components/Aurora";
 
 export default function Home() {
   return (
     <div className="w-full flex flex-col">
+
       <Header />
 
-      <TittleGlass />
+      <TittleGlass title="Hi, User" />
 
       <div className="w-full p-[20px] px-5 gap-4 flex overflow-x-auto pb-5">
         <ButtonColor>All</ButtonColor>
@@ -34,8 +36,6 @@ export default function Home() {
       </div>
 
       <PlaylistList />
-
-      <BottomMenu />
     </div>
   );
 }

@@ -1,12 +1,16 @@
 "use client";
 import React from "react";
 
-export default function TittleGlass() {
+interface TittleGlassProps {
+    title: string;
+}
+
+export default function TittleGlass({ title }: TittleGlassProps) {
     return (
         <div
-            className="mt-7 mb-5 mx-auto w-full max-w-xs relative flex flex-col items-center justify-center text-center overflow-visible"
+            className="mt-2 mb-5 mx-auto w-full max-w-xs relative flex flex-col items-center justify-center text-center overflow-visible"
         >
-            <h3 className="text-5xl font-bold">Hi, User</h3>
+            <h3 className="text-5xl font-bold">{title}</h3>
             <div className="w-full relative flex flex-col items-center justify-center">
                 <div
                     className="absolute inset-x-auto top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-full blur-sm"

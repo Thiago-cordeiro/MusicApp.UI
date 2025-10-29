@@ -37,7 +37,7 @@ const playlists: Playlist[] = [
 
 export default function PlaylistList() {
   return (
-    <div className="text-white w-full max-w-[90dvw] mx-auto mb-10">
+    <div className="text-white w-full max-w-[90dvw] mx-auto mb-27">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-lg font-semibold">Top daily playlists</h2>
         <button className="text-sm text-gray-400 hover:text-white">See all</button>

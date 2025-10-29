@@ -5,7 +5,7 @@ import { Search, Heart } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-end gap-4 p-4">
+    <header className="w-full absolute top-2 flex items-center justify-end gap-4 p-4">
       <div className="w-full flex justify-between items-center gap-4 p-1">
         <Image
           src="/planet1.png" 

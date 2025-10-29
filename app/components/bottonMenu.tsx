@@ -10,7 +10,7 @@ export default function BottomMenu() {
   const buttons = [
     { id: "home", icon: <Home size={22} />, path: "/" },
     { id: "library", icon: <Library size={22} />, path: "/library" },
-    { id: "chat", icon: <Search size={22} />, path: "/dashboard" },
+    { id: "chat", icon: <Search size={22} />, path: "/search" },
     { id: "settings", icon: <Settings size={22} />, path: "/settings" },
   ];
 
