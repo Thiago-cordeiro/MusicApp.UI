@@ -7,7 +7,7 @@ import { Play, Search, Upload } from "lucide-react";
 import PlaylistList from "../components/listPlaylists";
 import { useState } from "react";
 
-const BASE_URL = 'http://127.0.0.1:8000/'
+const BASE_URL = 'https://musicapp-api-7wvc.onrender.com/'
 
 interface ResponseQuery {
     id: number;
